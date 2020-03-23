@@ -9,9 +9,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 
-public class FractionAssertJTest {
+class FractionAssertJTest {
 
-    Fraction fraction;
+    private Fraction fraction;
 
     @BeforeEach
     void setUp() throws Exception{
